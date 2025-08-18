@@ -4,6 +4,7 @@ import Home from '../home/Home'
 import RSVP from "../rsvp/RSVP"
 import Registry from '../registry/Registry';
 import Faq from '../Faq/Faq'
+import About from '../about/About'
 import React, {useState} from 'react';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
           </div>
           <ul className='App-nav-bar'>
             <li className={toggle === 1 ? "active" : ""} onClick={() => updateToggle(1)}>Home</li>
+            <li className={toggle === 6 ? "active" : ""} onClick={() => updateToggle(6)}>Itinerary</li>
             <li className={toggle === 2 ? "active" : ""} onClick={() => updateToggle(2)}>RSVP</li>
             <li className={toggle === 3 ? "active" : ""} onClick={() => updateToggle(3)}>About Us</li>
             <li className={toggle === 4 ? "active" : ""} onClick={() => updateToggle(4)}>Registry</li>
@@ -34,11 +36,14 @@ function App() {
             <Home/>
             <button className="Home-button"  onClick={() => updateToggle(2)}>RSVP Here!</button>
           </div>
+          <div className={toggle === 6 ? "show-content": "hide-content"}>
+            empty for now
+          </div>
           <div className={toggle === 2 ? "show-content" : "hide-content"}>
             <RSVP/>
           </div>
           <div className={toggle === 3 ? "show-content" : "hide-content"}>
-            <p>test</p>
+            <About/>
           </div>
           
           <div className={toggle === 4 ? "show-content" : "hide-content"}>

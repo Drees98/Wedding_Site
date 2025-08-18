@@ -22,3 +22,29 @@ form {
 .hide-content {
     display: none;
 }
+
+.RSVP-button {
+  color: black;
+    border: 1px solid rgb(32, 41, 24);
+    border-radius: 10px;
+    padding: 10px 25px;
+    display: block;
+    width: 140px;
+    margin-left: 80px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--text-yellow);
+    background-color: rgb(70, 85, 57);
+}
+
+.RSVP-button:hover {
+  cursor: pointer;
+}
+
+.RSVP-info {
+    color: var(--text-yellow);
+    text-shadow: var(--text-shadow);
+    font-size: smaller;
+    margin-left: 30px;
+}

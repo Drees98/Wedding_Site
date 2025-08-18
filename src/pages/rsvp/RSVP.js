@@ -29,8 +29,9 @@ function RSVP() {
                 <label>Dietary Restrictions/Physical Accomodations: <textarea name="accomodations"/></label>
                 <label>Do you need a hotel room? <input className='checkbox-style' type="checkbox" name="needRoom"/></label>
                 <label>Additional comments: <textarea name="additionalComments"/></label>
-                <input type="submit" value="submit"/>
+                <input className='RSVP-button' type="submit" value="submit"/>
             </form>
+            <p className='RSVP-info'>*Please hit send on the auto generated email for us to receive your RSVP</p>
         </div>
     )
 }
