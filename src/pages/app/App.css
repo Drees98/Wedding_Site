@@ -1,0 +1,102 @@
+:root {
+  --background-green: rgb(81, 98, 67);
+  --text-yellow: rgb(233, 231, 95);
+  --text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  background-color: var(--background-green);
+}
+
+.App {
+  min-height: 100vh;
+  background-color: var(--background-green);
+}
+
+.App-header {
+  height: auto;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display: block;
+  padding: 20px 0px 0px 20px;
+  margin-bottom: 50px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.App-cursive-text {
+  color: var(--text-yellow);
+  font-family: Lucida Handwriting;
+  text-shadow: var(--text-shadow);
+  line-height:1em;
+  margin:-4px 0px 0px 0px
+}
+
+.Main-top-left {
+  max-width: 30%;
+}
+
+.App-MTL-text {
+  color: var(--text-yellow);
+  text-shadow: var(--text-shadow);
+  margin: 0;
+  font-family: Lucida Handwriting;
+}
+
+.App-nav-bar {
+  align-self: flex-end;
+  list-style-type: none;
+}
+
+.App-nav-bar li {
+  display: inline;
+  float: left;
+  margin-right: 20px;
+  padding: 5px 15px;
+  color: var(--text-yellow);
+  border-radius: 5px;
+  text-shadow: var(--text-shadow);
+}
+
+.App-nav-bar li:hover {
+    background-color: rgb(70, 85, 57);
+    cursor: pointer;
+}
+
+.App-nav-bar li.active {
+  text-decoration: underline;
+}
+
+.hide-content {
+  display: none;
+}
+
+.show-content {
+  display: block;
+}
+
+a {
+  color: rgb(233, 229, 32)
+}
+
+.Home-button {
+  color: black;
+    border: 1px solid rgb(32, 41, 24);
+    border-radius: 10px;
+    padding: 10px 25px;
+    display: block;
+    width: 140px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--text-yellow);
+    background-color: rgb(70, 85, 57);
+}
+
+.Home-button:hover {
+  cursor: pointer;
+}

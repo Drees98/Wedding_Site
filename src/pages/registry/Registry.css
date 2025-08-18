@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    margin-top: 100px;
+    color: var(--text-yellow);
+    text-shadow: var(--text-shadow);
+}
+
+.button-link {
+    color: black;
+    border: 1px solid rgb(32, 41, 24);
+    border-radius: 10px;
+    padding: 10px 25px;
+    display: block;
+    width: 80px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    color: var(--text-yellow);
+    background-color: rgb(70, 85, 57);
+}

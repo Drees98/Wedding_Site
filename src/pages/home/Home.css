@@ -1,0 +1,24 @@
+.Home {
+    background-color: var(--background-green);
+} 
+
+.Home-text-large {
+    color: var(--text-yellow);
+    text-align: center;
+
+    font-size: calc(10px + 3vmin);
+}
+
+.Home-text-med {
+    color: var(--text-yellow);
+    text-align: center;
+
+    font-size: calc(10px + 2vmin);
+}
+
+.Home-text-small {
+    color: var(--text-yellow);
+    text-align: center;
+
+    font-size: calc(10px + 1vmin);
+}
