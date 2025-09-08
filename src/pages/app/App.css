@@ -31,7 +31,8 @@
   font-family: Lucida Handwriting;
   text-shadow: var(--text-shadow);
   line-height:1em;
-  margin:-4px 0px 0px 0px
+  margin:-4px 0px 0px 0px;
+  text-align: center;
 }
 
 .Main-top-left {
@@ -99,4 +100,30 @@ a {
 
 .Home-button:hover {
   cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  .App-MTL-text {
+    color: var(--text-yellow);
+    text-shadow: var(--text-shadow);
+    margin: 0;
+    font-family: Lucida Handwriting;
+    font-size: medium;
+  }
+
+  .App-nav-bar {
+    margin-top: 0px;
+    align-self: flex-end;
+    list-style-type: none;
+  }
+  
+  .App-nav-bar li {
+    display: inline;
+    float: left;
+    padding: 5px 5px;
+    color: var(--text-yellow);
+    border-radius: 5px;
+    text-shadow: var(--text-shadow);
+    font-size: medium;
+  }
 }

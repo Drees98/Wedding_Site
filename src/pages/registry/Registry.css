@@ -22,3 +22,15 @@ h1 {
     color: var(--text-yellow);
     background-color: rgb(70, 85, 57);
 }
+
+@media (max-width: 500px) {
+    h1 {
+        text-align: center;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 50px;
+        color: var(--text-yellow);
+        text-shadow: var(--text-shadow);
+        font-size: large;
+    }
+}

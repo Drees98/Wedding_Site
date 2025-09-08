@@ -24,7 +24,7 @@ form {
 }
 
 .RSVP-button {
-  color: black;
+    color: black;
     border: 1px solid rgb(32, 41, 24);
     border-radius: 10px;
     padding: 10px 25px;
@@ -38,6 +38,10 @@ form {
     background-color: rgb(70, 85, 57);
 }
 
+.RSVP-label-text {
+    vertical-align: top;
+}
+
 .RSVP-button:hover {
   cursor: pointer;
 }
@@ -47,4 +51,29 @@ form {
     text-shadow: var(--text-shadow);
     font-size: smaller;
     margin-left: 30px;
+}
+
+ .RSVP-numfield {
+    width: 40px;
+ }
+
+@media (max-width: 500px){
+    label {
+        display: block;
+        width: 100%;
+        color: var(--text-yellow);
+        text-shadow: var(--text-shadow);
+        font-size: medium;
+        padding-bottom: 15px;
+    }
+    
+    .checkbox-style {
+        height: 15px;
+    }
+}
+
+@media (min-width: 500px) {
+    .RSVP-mobile-break {
+        display: none;
+    }
 }

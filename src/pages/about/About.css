@@ -5,3 +5,9 @@
 .Text-with-img {
     vertical-align: top;
 }
+
+@media (max-width: 500px) {
+    .Proposal-img {
+        width: 120px;
+    }
+}

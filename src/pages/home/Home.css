@@ -22,3 +22,27 @@
     text-shadow: var(--text-shadow);
     font-size: calc(10px + 1vmin);
 }
+
+@media (max-width: 500px) {
+    .Home-text-large {
+        color: var(--text-yellow);
+        text-align: center;
+        text-shadow: var(--text-shadow);
+        font-size: large;
+    }
+
+    .Home-text-med {
+        color: var(--text-yellow);
+        text-align: center;
+        text-shadow: var(--text-shadow);
+        font-size: medium;
+        margin: 20px;
+    }
+
+    .Home-text-small {
+        color: var(--text-yellow);
+        text-align: center;
+        text-shadow: var(--text-shadow);
+        font-size: small;
+    }
+}
